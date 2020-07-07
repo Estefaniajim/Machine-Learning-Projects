@@ -38,4 +38,3 @@ arr15 = np.array([[0., 1.], [1.2, 4.]])  # [[0. 1. ] [1.2 4. ]]
 arr15 = np.ones_like(arr15)  # [[1., 1.], [1., 1.]]
 arr15 = np.ones_like(arr15, dtype=np.int32)  # [[1, 1], [1, 1]]
 
-
