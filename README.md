@@ -4,6 +4,6 @@
  </p>
 Basic folder:
 <ul>
-<li>Numpy: NumPy Arrays, NumPy Basic Operations, Arithmetic and Linear Algebra work in NumPy, Generate numbers and arrays from different random distributions, Indexing, Filtering,   Statistics, Aggregation, Saving Data </li>
+<li>Data Manipulation with NumPy: NumPy Arrays, NumPy Basic Operations, Arithmetic and Linear Algebra work in NumPy, Generate numbers and arrays from different random distributions, Indexing, Filtering,   Statistics, Aggregation, Saving Data </li>
  </ul>
  
