@@ -4,6 +4,6 @@
  </p>
 Basic folder:
 <ul>
-<li>Data Manipulation with NumPy: NumPy Arrays, NumPy Basic Operations, Arithmetic and Linear Algebra work in NumPy, Generate numbers and arrays from different random distributions, Indexing, Filtering,   Statistics, Aggregation, Saving Data </li>
+<li>Data Manipulation with NumPy: NumPy Arrays, NumPy Basic Operations, Arithmetic and Linear Algebra work in NumPy, Generate numbers and arrays from different random distributions, Index into NumPy arrays to extract data and array slices, Filter NumPy data for specific values, Statistical Metrics to NumPy data, Aggregation techniques to combine NumPy data and arrays, Saving and Loading NumPy data </li>
  </ul>
  
