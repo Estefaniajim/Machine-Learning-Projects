@@ -49,3 +49,11 @@ df_w = df_ms.multiply([1,0.5,1])
 df_ms_sum = df_w.sum(axis=1)
 # 0    385.0
 # 1    370.0
+
+# Examples
+# Utility function to calculate the sum of multiple columns across a DataFrame.
+def col_list_sum(df, col_list, weights=None):
+    col_df = df[col_list]
+    if weights is not None:
+        col_df = col_df.multiply(weights)
+    return col_df.sum(axis=1)
