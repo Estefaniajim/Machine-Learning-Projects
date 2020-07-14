@@ -9,3 +9,6 @@ The Basics folder:
  <ul>
  <li><b>Data Analysis with pandas</b>: pandas Series object for 1-D data, pandas DataFrame object for 2-D data, concatenation and merging, indexing, Read from and write to different types of files in pandas, grouping, feature types, filter DataFrames, sort DataFrames, statistical metrics for data, pyplot API from Matplotlib, converted to 2-D NumPy arrays</li>
  </ul>
+ <ul>
+  <li><b>Data Preprocessing with scikit-learn</b>: data standardization and implement it with scikit-learn, compressing data into a specific range of values, robust scaling, data normalization, data imputation, PCA, PCA components</li>
+ </ul>
