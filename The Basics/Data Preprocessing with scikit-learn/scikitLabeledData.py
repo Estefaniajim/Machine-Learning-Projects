@@ -1,5 +1,6 @@
 from sklearn.datasets import load_breast_cancer
 from sklearn.decomposition import PCA
+import matplotlib.pyplot as plt
 
 bc = load_breast_cancer()
 # array([[1.799e+01, 1.038e+01, 1.228e+02, ..., 2.654e-01, 4.601e-01, 1.189e-01],
@@ -76,7 +77,6 @@ separated_data = separate_data(component_data,
                                labels, label_names)
 
 # Plotting the data
-import matplotlib.pyplot as plt
 for label_name, label_data in separated_data:
   col1 = label_data[:, 0]  # 1st column (1st pr. comp.)
   col2 = label_data[:, 1]  # 2nd column (2nd pr. comp.)
