@@ -19,3 +19,11 @@ print('Intercept: {}\n'.format(reg.intercept_))
 # Using previously defined pizza_data, pizza_prices
 r2 = reg.score(pizza_data, pizza_prices)
 print('R2: {}\n'.format(r2))
+
+# Example
+# The function will fit a basic least squares
+# regression model to the input data and labels.
+def linear_reg(data, labels):
+  reg = linear_model.LinearRegression()
+  reg.fit(data,labels)
+  return reg
