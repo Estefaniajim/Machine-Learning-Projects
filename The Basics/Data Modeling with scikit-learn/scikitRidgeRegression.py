@@ -15,3 +15,11 @@ reg.fit(pizza_data, pizza_prices)
 print('Coefficients: {}\n'.format(repr(reg.coef_)))
 print('Intercept: {}\n'.format(reg.intercept_))
 print('Chosen alpha: {}\n'.format(reg.alpha_))
+
+# Example
+# The function will fit a ridge regression model to the input data and labels.
+# The model is cross-validated to choose the best α value from the input list alphas.
+def cv_ridge_reg(data, labels, alphas):
+  reg = linear_model.RidgeCV(alphas=alphas)
+  reg.fit(data,labels)
+  return reg
