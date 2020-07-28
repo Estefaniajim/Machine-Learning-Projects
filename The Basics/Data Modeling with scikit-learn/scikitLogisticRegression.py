@@ -56,3 +56,10 @@ new_data = np.array([
   [ 1.8, -0.5, 6.2, 1.4],
   [ 3.3,  0.8, 0.1, 2.5]])
 # Prediction classes: array([2, 0])
+
+# Example
+# The function multiclass_lr will fit a logistic regression model to a dataset with multiclass labels.
+def multiclass_lr(data, labels, max_iter):
+  reg = linear_model.LogisticRegression(solver="lbfgs", max_iter=max_iter, multi_class="multinomial")
+  reg.fit(data,labels)
+  return reg
