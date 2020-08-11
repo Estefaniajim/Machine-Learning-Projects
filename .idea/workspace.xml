@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc51c0e0-643b-452b-b873-786d71b4a954" name="Default Changelist" comment="added NumPyFiltering.py">
-      <change afterPath="$PROJECT_DIR$/The Basics/Data Preprocessing with scikit-learn/CVToDecisionTrees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Machine Learning Foundations Coursera/Regression/RegressionMl.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +146,7 @@
       <workItem from="1596304783865" duration="202000" />
       <workItem from="1597096123359" duration="1454000" />
       <workItem from="1597182608562" duration="2482000" />
-      <workItem from="1597185790609" duration="946000" />
+      <workItem from="1597185790609" duration="1274000" />
     </task>
     <task id="LOCAL-00001" summary="Added basic folder">
       <created>1594094201931</created>
