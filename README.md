@@ -18,5 +18,6 @@ The Basics folder:
   <ul>
   <li><b>Data Modeling with scikit-learn</b>: Linear Regression, Ridge Regression, Regularization with LASSO regression, Bayesian regression techniques, Logistic Regression for Classification Tasks, Decision Trees, Training and Testing sets, K-Fold cross-validation, K-Fold cross-validation to decision trees, Evaluation of Classification and Regression models, Exhaustive Grid Search Techniques for Hyperparameter Tuning</li>
  </ul>
-  <li><b>Clustering with scikit-learn</b>: Cosine similarity metric,  Nearest neighbors for data points, K-Means clustering algorithm, Hierarchical clustering via the agglomerative approach, Mean shift clustering, DBSCAN clustering algorithm, Evaluation on the performance of clustering algorithms, Agglomerative clustering for feature dimensionality reduction</li>
+   <ul>
+ <li><b>Clustering with scikit-learn</b>: Cosine similarity metric,  Nearest neighbors for data points, K-Means clustering algorithm, Hierarchical clustering via the agglomerative approach, Mean shift clustering, DBSCAN clustering algorithm, Evaluation on the performance of clustering algorithms, Agglomerative clustering for feature dimensionality reduction</li>
  </ul>
