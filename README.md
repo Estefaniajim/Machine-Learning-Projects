@@ -22,3 +22,8 @@ The Basics folder:
    <ul>
  <li><b>Clustering with scikit-learn</b>: Cosine similarity metric,  Nearest neighbors for data points, K-Means clustering algorithm, Hierarchical clustering via the agglomerative approach, Mean shift clustering, DBSCAN clustering algorithm, Evaluation on the performance of clustering algorithms, Agglomerative clustering for feature dimensionality reduction</li>
  </ul>
+ 
+The Machine Learning Foundations Coursera folder:
+<ul>
+ <li><b>Machine Learning Foundations: A Case Study Approach</b>:Linear Regression</li>
+ </ul>
