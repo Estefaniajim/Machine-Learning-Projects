@@ -1,6 +1,7 @@
 # Machine Learning Projects
 <p>
- <b>The Machine Learning Foundations Coursera folder </b> is a recopilation of information gather in my coursera certification in Machine Learning Foundations by the University of Washinton
+ <b>The Machine Learning Foundations Coursera folder </b> is a recopilation of information gather in my coursera certification in Machine Learning Foundations by the University of Washinton.
+The course used turicreate but instead I use scikit-learn and pandas in order to complete the code for the course.
  </p>
 <p>
  <b>The Basics folder </b> is a recopilation of information about the basics of machine learning gathered from my bootcamp of Machine Learning for Software Engineers in educative.io 
