@@ -5,7 +5,7 @@ The course used turicreate but instead I use scikit-learn and pandas in order to
  </p>
  The Machine Learning Foundations Coursera folder:
 <ul>
- <li><b>Machine Learning Foundations: A Case Study Approach</b>:Linear Regression</li>
+ <li><b>Machine Learning Foundations: A Case Study Approach</b>:Linear Regression, Classification Modeling</li>
  </ul>
 <p>
  <b>The Basics folder </b> is a recopilation of information about the basics of machine learning gathered from my bootcamp of Machine Learning for Software Engineers in educative.io 
