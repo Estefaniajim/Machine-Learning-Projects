@@ -1,5 +1,7 @@
 import numpy as np
 from sklearn.cluster import KMeans
+from sklearn.cluster import MiniBatchKMeans
+
 # The K-means clustering algorithm will separate the data into
 # K clusters (the number of clusters is chosen by the user) using cluster means,
 # also known as centroids.
@@ -39,3 +41,32 @@ new_obs = np.array([
 # predict clusters
 print('{}\n'.format(repr(kmeans.predict(new_obs))))
 # array([1, 2], dtype=int32)
+
+# Mini-batch clustering
+kmeans = MiniBatchKMeans(n_clusters=3, batch_size=10)
+# predefined data
+kmeans.fit(data)
+# cluster assignments
+print('{}\n'.format(repr(kmeans.labels_)))
+# array([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+#        1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+#        1, 1, 1, 1, 1, 1, 0, 0, 0, 2, 0, 2, 0, 2, 0, 2, 2, 2, 2, 2, 2, 0,
+#        2, 2, 2, 2, 0, 2, 0, 2, 2, 0, 0, 0, 2, 2, 2, 2, 2, 0, 2, 2, 0, 2,
+#        2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0,
+#        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+#        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], dtype=int32)
+# centroids
+print('{}\n'.format(repr(kmeans.cluster_centers_)))
+# array([[6.43103448, 2.96034483, 5.13448276, 1.82068966],
+#        [5.00217391, 3.4326087 , 1.4826087 , 0.24782609],
+#        [5.72777778, 2.78333333, 4.24722222, 1.35      ]])
+# Now we make a new prediction
+new_obs = np.array([
+  [5.1, 3.2, 1.7, 1.9],
+  [6.9, 3.2, 5.3, 2.2]])
+# predict clusters
+print('{}\n'.format(repr(kmeans.predict(new_obs))))
+# array([1, 0], dtype=int32)
+
+# Example
+# The function will use either KMeans or MiniBatchKMeans for clustering data.
