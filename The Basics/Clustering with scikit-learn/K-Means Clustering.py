@@ -70,3 +70,10 @@ print('{}\n'.format(repr(kmeans.predict(new_obs))))
 
 # Example
 # The function will use either KMeans or MiniBatchKMeans for clustering data.
+def kmeans_clustering(data, n_clusters, batch_size):
+  if batch_size == None:
+    kmeans = KMeans(n_clusters=n_clusters)
+  else:
+    kmeans = MiniBatchKMeans(n_clusters=n_clusters,batch_size=batch_size)
+  kmeans.fit(data)
+  return kmeans
