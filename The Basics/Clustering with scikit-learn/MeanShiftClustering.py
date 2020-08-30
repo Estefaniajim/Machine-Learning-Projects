@@ -1,5 +1,6 @@
 from sklearn.cluster import MeanShift
 import numpy as np
+
 mean_shift = MeanShift()
 
 # predefined data
@@ -25,3 +26,4 @@ new_obs = np.array([
   [6.9, 3.2, 5.3, 2.2]])
 # predict clusters
 print('{}\n'.format(repr(mean_shift.predict(new_obs))))
+# array([1, 0])
