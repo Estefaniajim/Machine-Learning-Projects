@@ -17,6 +17,8 @@ print('{}\n'.format(repr(mean_shift.labels_)))
 
 # centroids
 print('{}\n'.format(repr(mean_shift.cluster_centers_)))
+# array([[6.21142857, 2.89285714, 4.85285714, 1.67285714],
+#        [5.01632653, 3.44081633, 1.46734694, 0.24285714]])
 
 new_obs = np.array([
   [5.1, 3.2, 1.7, 1.9],
