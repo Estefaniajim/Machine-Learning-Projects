@@ -3,7 +3,7 @@ from sklearn.metrics import adjusted_mutual_info_score # AMI
 import numpy as np
 
 # ARI
-# Note that the adjusted_rand_score function is symmetric. This means that changing the
+# Note: the adjusted_rand_score function is symmetric. This means that changing the
 # order of the arguments will not affect the score. Furthermore, permutations in the
 # labeling or changing the label names (i.e. 0 and 1 vs. 1 and 3) does not affect the score.
 true_labels = np.array([0, 0, 0, 1, 1, 1])
