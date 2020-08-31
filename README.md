@@ -26,3 +26,6 @@ The Basics folder:
    <ul>
  <li><b>Clustering with scikit-learn</b>: Cosine similarity metric,  Nearest neighbors for data points, K-Means clustering algorithm, Hierarchical clustering via the agglomerative approach, Mean shift clustering, DBSCAN clustering algorithm, Evaluation on the performance of clustering algorithms, Agglomerative clustering for feature dimensionality reduction</li>
  </ul>
+ <ul>
+ <li><b>Gradient Boosting with XGBoost</b>: Basics of using XGBoost, cross-validation to evaluate parameters for XGBoost, Saving and loading Booster objects using XGBoost binary files, XGBoost classifier object, XGBoost regressor object, feature importance in making model predictions, Grid search cross-validation to XGBoost models</li>
+ </ul>
