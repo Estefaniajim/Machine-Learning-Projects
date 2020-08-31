@@ -60,3 +60,8 @@ print('{}\n'.format(predictions))
 # [0]	eval-error:0.226891
 # [0.6236573 0.6236573]
 
+# Example
+# Train a Booster object on input data and labels
+dtrain = xgb.DMatrix(data, label=labels)
+params = {"max_depth": 2, "objective": "multi:softmax", "num_class":3}
+bst = xgb.train(params, dtrain)
