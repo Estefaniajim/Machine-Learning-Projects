@@ -39,3 +39,24 @@ print('Finish training')
 # [23:00:36] /workspace/src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
 # [23:00:36] /workspace/src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0
 # Finish training
+
+# Using a Booster
+# After training a Booster, we can evaluate it and use it to make predictions.
+# predefined evaluation data and labels
+print('Data shape: {}'.format(eval_data.shape))
+print('Labels shape: {}'.format(eval_labels.shape))
+deval = xgb.DMatrix(eval_data, label=eval_labels)
+
+# Trained bst from previous code
+print(bst.eval(deval))  # evaluation
+
+# new_data contains 2 new data observations
+dpred = xgb.DMatrix(new_data)
+# predictions represents probabilities
+predictions = bst.predict(dpred)
+print('{}\n'.format(predictions))
+# Data shape: (119, 30)
+# Labels shape: (119,)
+# [0]	eval-error:0.226891
+# [0.6236573 0.6236573]
+
