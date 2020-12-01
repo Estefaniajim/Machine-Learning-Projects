@@ -11,4 +11,3 @@ print('Best max_depth: {}\n'.format(
 # new_data contains 2 new data observations
 print('Predictions:\n{}'.format(
   repr(cv_model.predict(new_data))))
-
