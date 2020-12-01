@@ -18,4 +18,3 @@ new_bst = xgb.Booster()
 new_bst.load_model('model.bin')
 print('Probabilities:\n{}'.format(
   repr(new_bst.predict(dpred))))
-
