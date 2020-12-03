@@ -29,3 +29,6 @@ The Basics folder:
  <ul>
  <li><b>Gradient Boosting with XGBoost</b>: Basics of using XGBoost, cross-validation to evaluate parameters for XGBoost, Saving and loading Booster objects using XGBoost binary files, XGBoost classifier object, XGBoost regressor object, feature importance in making model predictions, Grid search cross-validation to XGBoost models</li>
  </ul>
+ <ul>
+ <li><b>Deep Learning with TensorFlow</b>: Input and output layers of a neural network, Inner layers of a neural network, Metrics for evaluating a neural network, Loss functions,  Optimizing neural network weights, Training a TensorFlow neural network, Using the model accuracy as the evaluation metric, Limitations of a single layer perceptron model, Binary and multiclass classification, Softmax function</li>
+ </ul>
