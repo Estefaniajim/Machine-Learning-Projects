@@ -32,3 +32,6 @@ The Basics folder:
  <ul>
  <li><b>Deep Learning with TensorFlow</b>: Input and output layers of a neural network, Inner layers of a neural network, Metrics for evaluating a neural network, Loss functions,  Optimizing neural network weights, Training a TensorFlow neural network, Using the model accuracy as the evaluation metric, Limitations of a single layer perceptron model, Binary and multiclass classification, Softmax function</li>
  </ul>
+  <ul>
+ <li><b>Deep Learning with Keras</b>: MLP model in Keras, MLP for multiclass classification, Model configuration and Model execution </li>
+ </ul>
