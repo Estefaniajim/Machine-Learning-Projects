@@ -32,4 +32,4 @@ class_labels = tf.argmax(labels, axis=-1)  # convert labels from one-hot vectors
 is_correct = tf.equal(predictions, class_labels)
 cross_entropy = tf.nn.softmax_cross_entropy_with_logits_v2(labels=labels,
                                                            logits=logits)  # going from sigmoid cross entropy to
-                                                                           # softmax cross entropy 
+                                                                           # softmax cross entropy
