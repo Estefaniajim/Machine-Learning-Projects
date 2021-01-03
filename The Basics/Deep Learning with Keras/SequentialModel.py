@@ -1,5 +1,5 @@
 from keras.models import Sequential
-from keras.layers import Dense, Dropout, Activation, Flatten
+from keras.layers import Dense
 
 model = Sequential() # ontainer of the neural network
 layer1 = Dense(5, input_dim=4) #fully-connected layer in the neural network
